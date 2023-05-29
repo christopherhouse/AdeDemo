@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "region": {
+        "value": "eastus"
+      },
+      "cosmosDbAccountName": {
+        "value": "cmh-beer-api-cdb-dev"
+      },
+      "cosmosDbDatabaseName": {
+        "value": "cmh-beer-api-db"
+      },
+      "cosmosDbContainerName": {
+        "value": "beers"
+      },
+      "partitionKeyPath": {
+        "value": "/brewery"
+      },
+      "keyVaultName": {
+        "value": "cmh-beer-api-kv-dev"
+      },
+      "logAnalyticsWorkspaceName": {
+        "value": "cmh-beer-api-laws-dev"
+      },
+      "containerAppsEnvironmentName": {
+        "value": "cmh-beer-api-aca-env-dev"
+      },
+      "containerRegistryName": {
+        "value": "cmhbeerapicrdev"
+      },
+      "apiManagementServiceName": {
+        "value": "cmh-beer-api-apim-dev"
+      },
+      "apiManagementPublisherEmail": {
+        "value": "chhouse@microsoft.com"
+      },
+      "apiManagementPublisherName": {
+        "value": "Chris House"
+      },
+      "containerAppName": {
+        "value": "cmh-beer-api-aca-dev"
+      },
+      "containerName": {
+        "value": "beer-collection-api"
+      },
+      "containerAppUserAssignedManagedIdentityName": {
+        "value": "cmh-beer-api-mi-dev"
+      },
+      "redisCacheName": {
+        "value": "cmh-beer-api-rc-dev"
+      },
+      "apimAppInsightsName": {
+        "value": "cmh-beer-api-apim-ai-dev"
+      },
+      "containerAppAppInsightsName": {
+        "value": "cmh-beer-api-aca-ai-dev"
+      },
+      "environmentName": {
+        "value": "development"
+      },
+      "apimUserAssignedManagedIdentityName": {
+        "value": "cmh-beer-api-apim-mi-dev"
+      }
+    }
+  }
